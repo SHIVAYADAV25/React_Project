@@ -39,3 +39,12 @@ npm i appwrite
 npm i react-hook-form
 npm i @tinymce/tinymce-react
 npm i html-react-parser 
+
+## .env  vite se project bana hai na
+
+start   VITE_
+use      import.meta.env.  then name
+
+exmple--
+VITE_APPWRITE_URL = "test environment"
+console.log(import.meta.env.VITE_APPWRITE_URL)
